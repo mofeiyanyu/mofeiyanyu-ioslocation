@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "npx wrangler dev",
+    "deploy": "npx wrangler deploy --minify",
+    "build:single": "node scripts/build-single.mjs",
+    "icons": "python3 scripts/gen_icons.py",
+    "gen:modules": "node scripts/gen-modules.mjs"
+  },
+  "dependencies": {
+    "hono": "^4.10.6"
+  },"name": "mofeiyanyu-ioslocation"
+}
